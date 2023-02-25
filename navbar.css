@@ -1,0 +1,137 @@
+ul {
+  list-style-type: none;
+  cursor: url("icons8-curseur-30.png"), pointer;
+}
+
+
+.navbar{
+  cursor: url("icons8-curseur-30.png"), pointer;
+}
+
+
+
+/*------------------------------------*/
+
+.account{
+  background-image: url("icons8-utilisateur-40.png");
+  height: 40px;
+  width: 45px;    
+  border-radius: 10px;
+  position:fixed;
+  margin-left:40px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  display: inline-block
+}
+
+.account:hover{
+  animation: normal;
+  animation-name: opacity;
+  animation-duration: 0.5s;
+  opacity: 100%;
+  cursor: url("icons8-curseur-30.png"), pointer;
+}
+
+/*------------------------------------*/
+
+.code{
+  background-image: url("icons8-code-source-40.png");
+  height: 40px;
+  width: 45px;    
+  border-radius: 10px;
+  position:fixed;
+  margin-left:80px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  display: inline-block
+}
+
+.code:hover{
+  animation: normal;
+  animation-name: opacity;
+  animation-duration: 0.5s;
+  opacity: 100%;
+  cursor: url("icons8-curseur-30.png"), pointer;
+}
+
+/*------------------------------------*/
+
+.photo{
+  background-image: url("icons8-appareil-photo-40.png");
+  height: 40px;
+  width: 45px;    
+  border-radius: 10px;
+  position:fixed;
+  margin-left:120px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.photo:hover{
+  animation: normal;
+  animation-name: opacity;
+  animation-duration: 0.5s;
+  opacity: 100%;
+  cursor: url("icons8-curseur-30.png"), pointer;
+}
+
+/*------------------------------------*/
+
+.ecriture{
+  background-image: url("icons8-stylo-à-bille-40.png");
+  height: 40px;
+  width: 45px;    
+  border-radius: 10px;
+  position:fixed;
+  margin-left:160px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.ecriture:hover{
+  animation: normal;
+  animation-name: opacity;
+  animation-duration: 0.5s;
+  opacity: 100%;
+  cursor: url("icons8-curseur-30.png"), pointer;
+}
+
+/*------------------------------------*/
+
+.send{
+  background-image: url("icons8-envoi-de-courriel-40.png");
+  height: 40px;
+  width: 45px;    
+  border-radius: 10px;
+  position:fixed;
+  margin-left:200px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.send:hover{
+  animation: normal;
+  animation-name: opacity;
+  animation-duration: 0.5s;
+  opacity: 100%;
+  cursor: url("icons8-curseur-30.png"), pointer;
+}
+
+
+
+
+@keyframes opacity {
+  0%{
+    opacity: 50%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+

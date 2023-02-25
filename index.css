@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+/*font-family: 'Roboto Condensed', sans-serif;*/
+
+*{
+  background-color: #ffd78e;
+  margin:0px 0px 0px 0px;
+}
+
+
+hr {
+  border: none;
+  border-top: 3px double #022469;
+  overflow: visible;
+  margin-left: 15%;
+  width: 70%;
+  margin-top:10%;
+  padding-top:10%;
+
+}
+
+
+
+html, body {
+  cursor: url("icons8-curseur-30.png"), pointer;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background:  rgb(255, 215, 142);
+
+}
+::-webkit-scrollbar-thumb {
+  background:rgb(2, 36, 105) ;
+  border-radius: 5px;
+}
+
+
+
+#progress{
+	background-color: #022469;
+	height: 3px;
+	width: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+
+#aa{
+  height: 500px;
+  width: 500px;
+  margin: auto;
+}
+
+
+/*-------------------------*/
+
+
+
+
+.account_zone {
+  display: flex;
+  align-items: center;
+  padding-top:100px;
+  padding-left:100px;
+  
+}
+
+.account_base {
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;
+  margin-right: 20px;
+  color: black;
+  float: right;
+}
+
+.image_pp {
+  width: 400px;
+  height: 600px;
+  padding-left:300px;
+  border-radius: 5%;
+
+}
+
+/*-----------------------------*/
+
+.code_histoire{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:x-large;
+  padding-left:100px;
+  float: right;
+}
+
+.Photo_histoire{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:x-large;
+  padding-left:100px;
+  padding-top:5%;
+  float: right;
+}
+
+.ecriture_histoire{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:x-large;
+  padding-left:100px;
+}
+
+input {
+  padding: 15px 100px;
+  margin: 10px 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+
+input:hover {
+  opacity: 0.5;
+}
+ 
+.bouton_git{
+  margin-left: 40%;
+}
+
+.bouton_vente{
+  margin-left:36%;
+}
+
+.icone_moniteur{
+  height: 150px;
+  width: 150px;
+  padding-left: 200%;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.send_{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:x-large;
+  margin-left:10%;
+  display: flex;
+  align-items: center; 
+}
+
+.send_zone{
+  display: flex;
+  align-items: center; 
+}
+
+.insta {
+  height: 60px;
+  width: 60px;
+  padding-left:200%;
+}
+
