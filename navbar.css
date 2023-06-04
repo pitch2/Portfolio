@@ -80,35 +80,13 @@ ul {
 
 /*------------------------------------*/
 
-.ecriture{
-  background-image: url("icons8-stylo-à-bille-40.png");
-  height: 40px;
-  width: 45px;    
-  border-radius: 10px;
-  position:fixed;
-  margin-left:160px;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  opacity: 0.5;
-}
-
-.ecriture:hover{
-  animation: normal;
-  animation-name: opacity;
-  animation-duration: 0.5s;
-  opacity: 100%;
-  cursor: url("icons8-curseur-30.png"), pointer;
-}
-
-/*------------------------------------*/
-
 .send{
   background-image: url("icons8-envoi-de-courriel-40.png");
   height: 40px;
   width: 45px;    
   border-radius: 10px;
   position:fixed;
-  margin-left:200px;
+  margin-left:160px;
   background-color: transparent;
   background-repeat: no-repeat;
   opacity: 0.5;
